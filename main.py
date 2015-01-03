@@ -1,5 +1,8 @@
 from sympy import *
 from sympy.abc import *
+from IPython.display import display
+
+init_printing(use_latex='mathjax')
 
 class InvSolve:
 	def __init__(self, equation, data_set):
